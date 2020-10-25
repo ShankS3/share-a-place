@@ -1,7 +1,7 @@
 {
-  "name": "ts-lodash-practice",
+  "name": "share-a-place",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
+  "description": "Share a place using google maps",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,10 @@
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Shashank Survase",
   "license": "ISC",
   "devDependencies": {
+    "@types/googlemaps": "^3.38.0",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
@@ -21,6 +22,6 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "lodash": "^4.17.20"
+    "axios": "^0.21.0"
   }
 }
